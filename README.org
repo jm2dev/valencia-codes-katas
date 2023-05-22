@@ -1,0 +1,83 @@
+#+title: Valencia Codes Katas
+#+author: José Miguel
+#+startup: showall
+
+* Overview
+
+ From Wikipedia[fn:1]:
+
+ #+begin_quote
+Kata is a Japanese word (型 or 形) meaning "form". It refers to a detailed
+choreographed pattern of martial arts movements made to be practised alone.
+ #+end_quote
+
+ With these katas we aim to provide a set of exercises to learn tools and
+ techniques for those who want to cut their teeth on programming.
+
+* About us
+
+Valencia Codes[fn:4] is a community of technology enthusiasts meeting frequently
+in Valencia, you can see our events on our [[https://www.meetup.com/valencia-codes/events/][meetup page]].
+
+* Setup
+
+** Common
+
+- A shell, like bash, zsh, fish, etc to work with files and directories.
+- An editor, vi, emacs, nano, etc to code your programs.
+- Version Control System, you will be saved with git.
+
+** Python
+
+Make sure python[fn:3] is available, and then create a virtual environment to
+sandbox all your work.
+
+#+begin_src sh :exports both :results code
+python --version
+#+end_src
+
+#+RESULTS:
+#+begin_src sh
+Python 3.11.3
+#+end_src
+
+*** Traditional
+
+#+begin_example
+python -m venv .venv
+#+end_example
+
+*** Direnv
+
+#+begin_example
+//. envrc
+layout python3
+#+end_example
+
+** NodeJS
+
+Check nodejs[fn:2] is installed on your system:
+
+#+begin_src sh :exports both :results code
+node --version
+#+end_src
+
+#+RESULTS:
+#+begin_src sh
+v18.16.0
+#+end_src
+
+* Katas
+
+- https://kata-log.rocks/tdd
+- https://www.codewars.com/collections/tdd-katas
+
+* Footnotes
+
+[fn:4] https://www.meetup.com/valencia-codes/
+
+[fn:3] https://www.python.org/
+
+[fn:2] https://nodejs.org/en
+
+[fn:1] https://en.wikipedia.org/wiki/Kata
