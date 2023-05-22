@@ -4,7 +4,7 @@
 
 * Overview
 
- From Wikipedia[fn:1]:
+ From [[https://en.wikipedia.org/wiki/Kata][Wikipedia]]:
 
  #+begin_quote
 Kata is a Japanese word (型 or 形) meaning "form". It refers to a detailed
@@ -16,7 +16,7 @@ choreographed pattern of martial arts movements made to be practised alone.
 
 * About us
 
-Valencia Codes[fn:4] is a community of technology enthusiasts meeting frequently
+[[https://www.meetup.com/valencia-codes/][Valencia Codes]] is a community of technology enthusiasts meeting frequently
 in Valencia, you can see our events on our [[https://www.meetup.com/valencia-codes/events/][meetup page]].
 
 * Setup
@@ -29,8 +29,7 @@ in Valencia, you can see our events on our [[https://www.meetup.com/valencia-cod
 
 ** Python
 
-Make sure python[fn:3] is available, and then create a virtual environment to
-sandbox all your work.
+Make sure [[https://www.python.org/][Python]] is available:
 
 #+begin_src sh :exports both :results code
 python --version
@@ -41,22 +40,24 @@ python --version
 Python 3.11.3
 #+end_src
 
-*** Traditional
+and then create a virtual environment to sandbox all your work.
 
 #+begin_example
 python -m venv .venv
 #+end_example
 
-*** Direnv
+#+begin_quote
+Alternatively you can explore [[https://direnv.net/][direnv]] if you fancy it, just place a file named '.envrc' with the following content and direnv will do the magic every time you cd into the directory that contains that file.'
+#+end_quote
 
 #+begin_example
-//. envrc
+// .envrc
 layout python3
 #+end_example
 
 ** NodeJS
 
-Check nodejs[fn:2] is installed on your system:
+Check [[https://nodejs.org/en][NodeJS]] is installed on your system:
 
 #+begin_src sh :exports both :results code
 node --version
@@ -71,13 +72,3 @@ v18.16.0
 
 - https://kata-log.rocks/tdd
 - https://www.codewars.com/collections/tdd-katas
-
-* Footnotes
-
-[fn:4] https://www.meetup.com/valencia-codes/
-
-[fn:3] https://www.python.org/
-
-[fn:2] https://nodejs.org/en
-
-[fn:1] https://en.wikipedia.org/wiki/Kata
