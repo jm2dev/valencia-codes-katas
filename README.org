@@ -14,6 +14,10 @@ choreographed pattern of martial arts movements made to be practised alone.
  With these katas we aim to provide a set of exercises to learn tools and
  techniques for those who want to cut their teeth on programming.
 
+ You can practise how to set up a project from scratch to code on your software
+ language of choice, or to experiment with [[https://en.wikipedia.org/wiki/Test-driven_development][Test Driven Development]] using
+ different libraries, or just jump to the Katas section for further ideas.
+
 * About us
 
 [[https://www.meetup.com/valencia-codes/][Valencia Codes]] is a community of technology enthusiasts meeting frequently
@@ -54,6 +58,11 @@ Alternatively you can explore [[https://direnv.net/][direnv]] if you fancy it, j
 // .envrc
 layout python3
 #+end_example
+
+For test driven development consider the following libraries:
+
+- [[https://docs.python.org/3/library/unittest.html][unittest]]
+- [[https://docs.pytest.org/en/7.3.x/][pytest]]
 
 ** NodeJS
 
