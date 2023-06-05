@@ -1,0 +1,88 @@
+#+title: Valencia Codes Katas
+#+author: José Miguel
+#+startup: showall
+
+* Resumen
+
+ From [[https://en.wikipedia.org/wiki/Kata][Wikipedia]]:
+
+ #+begin_quote
+Kata es una palabra japonesa (型 or 形) que significa "forma". Se refiere a un
+detallado patrón coreografiado de movientos de artes marciales hecho para ser
+practicado solo.
+ #+end_quote
+
+ Con estas katas pretendemos disponer de una serie de ejercicios para aprender
+ herramientas y técnicas para aquellas personas que quieren aprender
+ programación.
+
+ Se puede practicar la preparación de un proyecto desde cero con su lenguaje de
+ programación favorito, o experimentar [[https://en.wikipedia.org/wiki/Test-driven_development][Desarrollo Dirigido por Pruebas]] usando
+ diferentes bibliotecas, o directamente salte a la sección de Katas para más
+ ideas.
+
+* Sobre nosotros
+
+[[https://www.meetup.com/valencia-codes/][Valencia Codes]] es una comunidad de entusiastas de la tecnología que se reunen con frecuencia en Valencia, puede consultar nuestros próximos eventos en nuestra [[https://www.meetup.com/valencia-codes/events/][página de meetup]].
+
+* Preparación
+
+** Común
+
+- Un shell, como bash, zsh, fish, etc para trabajar con ficheros y directorios.
+- Un editor, vi, emacs, nano, etc para codificar nuestros programas.
+- Un sistema de control de versiones, git es una apuesta segura.
+
+** Python
+
+Compruebe que [[https://www.python.org/][Python]] está instalado:
+
+#+begin_src sh :exports both :results code
+python --version
+#+end_src
+
+#+RESULTS:
+#+begin_src sh
+Python 3.11.3
+#+end_src
+
+y después cree un entorno virtual para instalar posibles dependencias sin
+afectar nada más fuera de este directorio de trabajo.
+
+#+begin_example
+python -m venv .venv
+#+end_example
+
+#+begin_quote
+Como alternativa puede explorar [[https://direnv.net/][direnv]], y tan solo con un fichero '.envrc' con
+el siguiente contenido y direnv se encargará de toda la magia cada vez que
+visite el directorio donde se aloja este fichero.
+#+end_quote
+
+#+begin_example
+// .envrc
+layout python3
+#+end_example
+
+Para desarrollo dirigido por pruebas considere las siguientes bibliotecas:
+
+- [[https://docs.python.org/3/library/unittest.html][unittest]]
+- [[https://docs.pytest.org/en/7.3.x/][pytest]]
+
+** NodeJS
+
+Compruebe que [[https://nodejs.org/en][NodeJS]] está instalado:
+
+#+begin_src sh :exports both :results code
+node --version
+#+end_src
+
+#+RESULTS:
+#+begin_src sh
+v18.16.0
+#+end_src
+
+* Katas
+
+- https://kata-log.rocks/tdd
+- https://www.codewars.com/collections/tdd-katas
