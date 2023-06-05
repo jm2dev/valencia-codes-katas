@@ -1,0 +1,38 @@
+#+title: Calculadora
+
+* Resumen
+
+Proyecto sencillo para practicar desarrollo guiado por pruebas.
+
+* Requisitos
+
+- Nodejs
+- npm
+
+* Uso
+
+Preparación del proyecto
+
+#+begin_example
+npm init
+#+end_example
+
+Instalación de la biblioteca [[https://jestjs.io/es-ES/docs/getting-started][Jest]] para ejecutar las pruebas.
+
+#+begin_example
+npm install --save-dev jest
+#+end_example
+
+Asegúrese de que la tarea 'test' en 'package.json' llama a 'jest'
+
+#+begin_example
+...
+"test" = "jest"
+...
+#+end_example
+
+y ejecute:
+
+#+begin_example
+npm test
+#+end_example
